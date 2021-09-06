@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom left, rgb(245, 3, 192), rgba(95, 197, 235));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+
+
+}
+.loginbox{
+    width: 340px;
+    height: 580px;
+    position: relative;
+    margin: 8% auto;
+    background: #fff;
+    padding: 6px;
+    border-radius: 8px;
+}
+.log{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 29px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+}
+
+.input-group{
+     top: 100px;
+     position: absolute;
+     width: 280px;
+     transition: .5s;
+     
+}
+
+.input-area{
+    width: 100%;
+    padding: 10px 0;
+    margin: 3px 0 0 28px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid rgb(185, 178, 178);
+    outline: none;
+    background: transparent;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: linear-gradient( to left,rgb(245, 3, 192), rgba(95, 197, 235));
+    color: whitesmoke;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: gray;
+    text-transform: capitalize;
+    display:flex;
+    justify-content: right;
+    margin-top: 10px;
+    font-size: 13px;
+
+}
+
+.had{
+    font-size: 14px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: lighter;
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+.text{
+    font-size: 15px;
+    font-family:'IBM Plex Sans Arabic', sans-serif;
+    font-weight: lighter;
+    margin-top: 45px;
+    color: rgb(95, 94, 94);
+    text-transform: capitalize;
+    margin-left: 117px;
+
+}
+
+.icons{
+    margin: 8px auto;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-right:53px ;
+    
+    
+    
+}
+
+.fb a{
+    font-size: 20px;
+    color: whitesmoke;
+    float: right;
+    padding: 5px;
+    background: rgb(2, 48, 172);
+    border-radius: 39px;
+    margin-left: 10px;
+    
+}
+
+.twt a{
+    font-size: 20px;
+    color: whitesmoke;
+    float: right;
+    padding: 5px;
+    background: rgb(45, 151, 250);
+    border-radius: 22px;
+    margin-left: 10px;
+    
+}
+
+.gl a{
+    font-size: 20px;
+    color: whitesmoke;
+    float: right;
+    padding: 5px;
+    background: rgba(221, 28, 54, 0.781);
+    border-radius: 22px;
+}
